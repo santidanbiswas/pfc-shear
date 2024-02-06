@@ -1,0 +1,9 @@
+256           ::xSide  (System Size in "x" direction)
+1024         ::ySide  (System size in "y" direction)
+1.178D0      :: dx
+1.178D0      :: dy
+0.025D0      ::dt     (time step)
+10000.D0        ::tFinal (Time upto which simulation will run) 
+0.3D0      ::psiAvg (Average density)
+-0.5D0      ::r      (parameter in equation of motion) 
+5.D0        ::sdNoiseV (initial velocity generated using consv noise, SD of it)

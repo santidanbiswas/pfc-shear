@@ -1,0 +1,11 @@
+256         ::xSide  (System Size in "x" direction)
+1024        ::ySide  (System size in "y" direction)
+0.785D0     ::dx
+0.785D0     ::dy
+0.01D0      ::dt     (time step)
+2500.D0     ::tFinal (Time upto which simulation will run) 
+0.285D0     ::psiAvg (Average density)
+-0.25D0     ::r      (parameter in equation of motion) 
+0.01D0      ::sdNoiseV (initial velocity generated using consv noise, SD of it)
+#1.D0      ::dx     (distance betwn neighbouring pts "x" in the lattice/grid) 
+#1.D0      ::dy     (distance betwn neighbouring pts "y" in the lattice/grid) 
